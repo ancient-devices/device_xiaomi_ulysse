@@ -61,9 +61,13 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8937 \
     audio.r_submix.default \
     audio.usb.default \
+    libaudioroute \
+    libaacwrapper \
+    libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
-    libqcomvoiceprocessing
+    libqcomvoiceprocessing \
+    tinymix
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
@@ -122,6 +126,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
+    liboverlay \
+    libgenlock \
     memtrack.msm8937
 
 PRODUCT_PACKAGES += \
@@ -455,6 +461,13 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(DEVICE_PATH)/wifi/firmware/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(DEVICE_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+
+# Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/ugglite/ugglite-vendor.mk)
