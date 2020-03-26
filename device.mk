@@ -49,6 +49,11 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Ahememd
+PRODUCT_PACKAGES += \
+    libashmemd_client \
+    ashmemd_aidl_interface-cpp
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \

@@ -226,6 +226,14 @@ on post-fs-data
     write /sys/block/dm-1/queue/read_ahead_kb 2048
     write /sys/block/dm-2/queue/read_ahead_kb 2048
 
+    # symlink ashmemd libraries
+    mkdir /system/apex/com.android.media/lib64 0770 system system
+    mkdir /system/apex/com.android.media.swcodec/lib64 0770 system system
+    symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media/lib64
+    symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media.swcodec/lib64
+    symlink /system/lib64/ashmemd_aidl_interface-cpp.so /system/apex/com.android.media/lib64
+    symlink /system/lib64/ashmemd_aidl_interface-cpp.so /system/apex/com.android.media.swcodec/lib64
+
 on property:sys.boot_completed=1
     start qcom-post-boot
 
