@@ -47,3 +47,4 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release
 IS_PHONE := true
 export ANCIENT_NOGAPPS=true
 TARGET_BOOT_ANIMATION_RES := 720
+export ANCIENT_OFFICIAL=true
