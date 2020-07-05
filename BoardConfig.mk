@@ -13,8 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_VERSION := 4.9
-
 # Inherit from common ulysse-common
 -include device/xiaomi/ulysse-common/BoardConfigCommon.mk
 
