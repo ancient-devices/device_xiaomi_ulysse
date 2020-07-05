@@ -47,12 +47,12 @@ PRODUCT_PACKAGES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.msm8953.recovery
+    bootctrl.msm8937.recovery
 
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    bootctrl.msm8953 \
+    bootctrl.msm8937 \
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8953 \
+    camera.msm8937 \
     libmm-qcamera
 
 # ConsumerIr
@@ -92,7 +92,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Touch HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_8953
+    vendor.lineage.touch@1.0-service.xiaomi_8937
 
 # Update engine
 PRODUCT_PACKAGES += \
