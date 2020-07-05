@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/xiaomi/tissot/tissot-vendor.mk)
+$(call inherit-product, vendor/xiaomi/ugg/ugg-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlay
@@ -25,8 +25,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
     $(LOCAL_PATH)/overlay/packages/apps/Snap
 
-# Inherit from msm8953-common
-$(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
+# Inherit from ulysse-common
+$(call inherit-product, device/xiaomi/ulysse-common/ulysse.mk)
 
 # A/B
 AB_OTA_UPDATER := true
@@ -73,14 +73,14 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service
 
 # Properties
--include device/xiaomi/tissot/prop.mk
+-include device/xiaomi/ugg/prop.mk
 
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
-    init.tissot.rc
+    init.ugg.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \

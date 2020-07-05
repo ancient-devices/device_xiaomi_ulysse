@@ -14,8 +14,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=tissot
-export DEVICE_COMMON=msm8953-common
+export DEVICE=ugg
+export DEVICE_COMMON=ulysse-common
 export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2017
