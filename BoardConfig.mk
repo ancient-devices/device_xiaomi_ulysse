@@ -18,9 +18,6 @@
 
 DEVICE_PATH := device/xiaomi/ugg
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := ugg_defconfig
 
