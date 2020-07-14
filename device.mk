@@ -38,11 +38,6 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera
 
-# ConsumerIr
-PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl \
-    android.hardware.ir@1.0-service
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
@@ -55,10 +50,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.ugg.rc
-
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
