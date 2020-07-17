@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.ulysse.rc
 
+PRODUCT_PACKAGES += \
+    init.qcom.early_boot.sh
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
