@@ -14,9 +14,6 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-   <!-- Enable system navigation keys. -->
-   <bool name="config_supportSystemNavigationKeys">true</bool>
-
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 
