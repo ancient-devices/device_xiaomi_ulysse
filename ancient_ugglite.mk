@@ -49,5 +49,4 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 720
 export ANCIENT_OFFICIAL=true
-TARGET_GAPPS_ARCH := arm64
 export FORCE_OTA=true
