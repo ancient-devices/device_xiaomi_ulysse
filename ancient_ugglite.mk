@@ -47,5 +47,4 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release
 # Ancient
 IS_PHONE := true
 export ANCIENT_OFFICIAL=true
-TARGET_GAPPS_ARCH := arm64
 export FORCE_OTA=true
