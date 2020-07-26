@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ugg.mk
+    $(LOCAL_DIR)/lineage_ugg.mk \
+    $(LOCAL_DIR)/ancient_ugg.mk
