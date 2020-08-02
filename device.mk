@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
-    libunwind
+    libunwind \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1
 
 # Input
 PRODUCT_COPY_FILES += \
