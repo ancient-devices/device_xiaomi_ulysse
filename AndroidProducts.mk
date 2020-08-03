@@ -16,9 +16,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_ugg.mk \
     $(LOCAL_DIR)/ancient_ugg.mk \
-    $(LOCAL_DIR)/aosp_ugg.mk
-    
-COMMON_LUNCH_CHOICES := \
-    aosp_ugg-user \
-    aosp_ugg-userdebug \
-    aosp_ugg-eng
+    $(LOCAL_DIR)/aosp_ugg.mk \
+    $(LOCAL_DIR)/aicp_ugg.mk \
+    $(LOCAL_DIR)/aosip_ugg.mk \
+    $(LOCAL_DIR)/arrow_ugg.mk \
+    $(LOCAL_DIR)/bootleg_ugg.mk \
+    $(LOCAL_DIR)/du_ugg.mk \
+    $(LOCAL_DIR)/rr_ugg.mk \
+    $(LOCAL_DIR)/xtended_ugg.mk
