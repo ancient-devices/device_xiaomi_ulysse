@@ -16,12 +16,12 @@
 # Inherit from common ulysse-common
 -include device/xiaomi/ulysse-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/ugg
+DEVICE_PATH := device/xiaomi/ulysse
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Kernel
-TARGET_KERNEL_CONFIG := ugg_defconfig
+TARGET_KERNEL_CONFIG := ulysse_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
@@ -34,4 +34,4 @@ BOARD_VENDORIMAGE_PARTITION_SIZE   := 872415232
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/xiaomi/ugg/BoardConfigVendor.mk
+-include vendor/xiaomi/ulysse/BoardConfigVendor.mk

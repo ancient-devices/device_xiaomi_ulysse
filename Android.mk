@@ -25,7 +25,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),ugg)
+ifeq ($(TARGET_DEVICE),ulysse)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
