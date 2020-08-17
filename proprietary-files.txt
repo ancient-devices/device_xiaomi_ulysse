@@ -1,7 +1,6 @@
 # Fingerprint - from vince
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-# Temporary Workaround to prevent crashing infinitely on ugglite
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|a6f266af6b974a8a26f6ef564781de45e9462db2
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/firmware/goodix_firmware.bin
 vendor/framework/com.fingerprints.extension.jar
