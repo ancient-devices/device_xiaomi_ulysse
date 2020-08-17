@@ -20,6 +20,9 @@ DEVICE_PATH := device/xiaomi/ulysse
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := ulysse,ugglite,ugg
+
 # Kernel
 TARGET_KERNEL_CONFIG := ulysse_defconfig
 
