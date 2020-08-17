@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=ugg
+export DEVICE=ulysse
 export DEVICE_COMMON=ulysse-common
 export VENDOR=xiaomi
 

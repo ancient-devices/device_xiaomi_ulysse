@@ -18,18 +18,18 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from ugg device
-$(call inherit-product, device/xiaomi/ugg/device.mk)
+# Inherit from ulysse device
+$(call inherit-product, device/xiaomi/ulysse/device.mk)
 
-# Inherit some common CorvusOS stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit some common ResurrectionRemix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := ugg
-PRODUCT_NAME := du_ugg
+PRODUCT_DEVICE := ulysse
+PRODUCT_NAME := rr_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A Prime
+PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 

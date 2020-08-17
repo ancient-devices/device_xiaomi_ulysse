@@ -19,17 +19,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from mido device
-$(call inherit-product, device/xiaomi/ugg/device.mk)
+$(call inherit-product, device/xiaomi/ulysse/device.mk)
 
 # Inherit some common AEX stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := ugg
-PRODUCT_NAME := aosp_ugg
+PRODUCT_DEVICE := ulysse
+PRODUCT_NAME := aosp_ulysse
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A Prime
+PRODUCT_MODEL := Redmi Note 5A
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
