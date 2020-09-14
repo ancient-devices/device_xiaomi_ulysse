@@ -21,3 +21,6 @@ vendor/lib/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib/lib_fpc_tac_shared.so
+
+# VNDK - from LOS17.1 20200914 build
+lib64/libbinder.so:vendor/lib64/vndk/libbinder.so|b3c4906178fb354cf5bda422910469f76a7d295c
