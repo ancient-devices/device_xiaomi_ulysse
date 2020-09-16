@@ -22,7 +22,7 @@ then
 	fi
 else
 	log "${MY_NAME}: Correct Model! Starting FP Service."
-	start vendor.fps_hal
+	#start vendor.fps_hal
 fi
 
 exit 0
