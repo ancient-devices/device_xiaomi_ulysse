@@ -14,13 +14,14 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ulysse.mk \
-    $(LOCAL_DIR)/ancient_ulysse.mk \
-    $(LOCAL_DIR)/aosp_ulysse.mk \
     $(LOCAL_DIR)/aicp_ulysse.mk \
+    $(LOCAL_DIR)/ancient_ulysse.mk \
     $(LOCAL_DIR)/aosip_ulysse.mk \
+    $(LOCAL_DIR)/aosp_ulysse.mk \
     $(LOCAL_DIR)/arrow_ulysse.mk \
     $(LOCAL_DIR)/bootleg_ulysse.mk \
     $(LOCAL_DIR)/du_ulysse.mk \
+    $(LOCAL_DIR)/lineage_ulysse.mk \
+    $(LOCAL_DIR)/pixeldust_ulysse.mk \
     $(LOCAL_DIR)/rr_ulysse.mk \
     $(LOCAL_DIR)/xtended_ulysse.mk
