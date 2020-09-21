@@ -33,5 +33,3 @@ BOARD_VENDORIMAGE_PARTITION_SIZE   := 536870912
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
-# Inherit from the proprietary version
--include vendor/xiaomi/ugg/BoardConfigVendor.mk
