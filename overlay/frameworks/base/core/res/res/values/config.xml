@@ -28,4 +28,7 @@
     <string name="config_smartChargingSupspendValue" translatable="false">0</string>
     <string name="config_smartChargingResumeValue" translatable="false">1</string>
 
+    <!-- Whether Device support LiveDisplay or not -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
 </resources>
