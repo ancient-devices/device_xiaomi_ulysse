@@ -10,6 +10,7 @@ vendor/lib64/hw/gf_fingerprint.default.so
 vendor/lib64/libgf_algo.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
+# Load libbinder_shim.so
 vendor/lib64/libgoodixfingerprintd_binder.so
 vendor/lib64/libsoftkeymaster.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
@@ -19,7 +20,9 @@ vendor/lib/android.hardware.biometrics.fingerprint@2.1.so
 
 # FPC Fingerprint - from ugg 7.1.2 N2G47H V10.2.1.0.NDKMIXM
 vendor/lib64/hw/fingerprint.default.so
+# Load libbinder_shim.so
 vendor/lib64/lib_fpc_tac_shared.so
+# Load libbinder_shim.so
 vendor/lib/lib_fpc_tac_shared.so
 
 # VNDK - from LOS17.1 20200914 build
