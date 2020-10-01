@@ -35,3 +35,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/ugg/BoardConfigVendor.mk
+-include vendor/xiaomi/ulysse/BoardConfigVendor.mk

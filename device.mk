@@ -14,7 +14,11 @@
 # limitations under the License.
 #
 
+ifneq ($(wildcard vendor/xiaomi/ulysse),)
+$(call inherit-product, vendor/xiaomi/ulysse/ulysse-vendor.mk)
+else
 $(call inherit-product, vendor/xiaomi/ugg/ugg-vendor.mk)
+endif
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlay
