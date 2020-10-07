@@ -68,6 +68,8 @@ service goodix_script /vendor/bin/init.goodix.sh
     user system
     oneshot
 
-on property:ro.product.device=ugglite
+on property:init.svc.vendor.fps_hal=stopped
     mount none /vendor/etc/permissions/blank.xml /vendor/etc/permissions/android.hardware.fingerprint.xml bind
-    stop vendor.fps_hal
+
+on property:init.svc.vendor.fps_hal=restarting
+    umount /vendor/etc/permissions/android.hardware.fingerprint.xml
