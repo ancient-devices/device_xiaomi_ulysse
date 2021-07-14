@@ -50,3 +50,5 @@ TARGET_USES_BLUR := false
 # Ancient Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-ancient
 
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.sf.disable_blur=1
